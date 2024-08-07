@@ -1,0 +1,43 @@
+/* navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navLinks li a:hover {
+    text-decoration: underline;
+}
+
+.resumeButton {
+    padding: 8px 16px;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.resumeButton:hover {
+    background-color: #0056b3;
+}

@@ -1,9 +1,12 @@
+import Navbar from '../components/navbar'; 
+
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  return (
-      <div>
-          {children}  // Layout structure only, no style imports
-      </div>
-  );
+    return (
+        <>
+            <Navbar />
+            <main>{children}</main>
+        </>
+    );
 };
 
 export default Layout;
